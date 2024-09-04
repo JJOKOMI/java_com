@@ -24,8 +24,30 @@ public class B_DataType {
 		int age; // 변수 선언
 		age = 30; // 변수 초기화
 		int height = 169; //변수 선언과 동시에 초기화
+		long bitNumber = 100000000l;//숫자뒤에 알파벳 l.L사용
 		System.out.println(age);
 		System.out.println(height);
+		
+		// 문자형
+		//char : 하나의 문자를 저장하기 위한 변수를 선언 할 때 사용, 단일문자저장, 문자형의 데이터의 경우
+		char grade = 'A';
+		char lastName = '이';
+		
+		float weight = 70.9f;
+		double weight2 = 35.1231231321;
+		
+		
+//		참조자료형
+//		기본 자료형을 기초로 만들어진 자료형
+//		실제 데이터  값이 아니라 데이터가 저장된 주소값을 가지는 자료형
+//		
+//		종류 >> String : 문자열을 저장하는데 사용
+//		Array >> 배열을 저장하는데 사용
+//		
+		
+		String name = "이승아";
+		int[] scores = {90,80,70};
+		
 	}
 
 }

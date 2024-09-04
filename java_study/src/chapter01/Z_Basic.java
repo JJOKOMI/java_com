@@ -18,6 +18,8 @@ public class Z_Basic {
 		// 되돌아가기: 컨트롤 + z
 		//파일실행 컨트롤 f11
 		
+		//자동완성 컨트롤 스페이스바 ex)syso
+		
 		
 	}
 
